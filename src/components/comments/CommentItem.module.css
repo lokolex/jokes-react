@@ -1,0 +1,28 @@
+.item {
+  margin: 1rem 0;
+  color: #5d5245;
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f48405;
+}
+
+.item p {
+  word-wrap: break-word;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.icon svg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 574px) {
+  .item {
+    font-size: 1rem;
+  }
+}
